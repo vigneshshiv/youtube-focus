@@ -1,0 +1,61 @@
+/* Blur out channel playlist name */
+.title.style-scope.ytd-playlist-panel-renderer.complex-string {
+  filter: blur(3px);
+}
+
+/* Blur out channel listing status */
+span.style-scope.ytd-badge-supported-renderer {
+  filter: blur(3px);
+}
+
+/* Blur out video thumbnail */
+#thumbnail.ytd-thumbnail {
+  filter: blur(10px);
+}
+
+/* Blur out video title */
+#video-title {
+  filter: blur(2px);
+}
+
+/* Blur out channel name */
+#byline-containerz {
+  filter: blur(2px);
+}
+
+/* Blur out suggestion list channel name */
+#metadata.ytd-video-meta-block {
+  filter: blur(2px);
+}
+
+/* Blur out channel avatar */
+#avatar-link[tabindex='-1'] {
+  filter: blur(2px);
+}
+
+/* Blur out user comments and avatars */
+#author-thumbnail {
+  filter: blur(3px);
+}
+
+/* Blur out user channel name or username */
+span.style-scope.ytd-comment-renderer {
+  filter: blur(3px);
+}
+
+/* Blur out support text */
+span.ytd-badge-supported-renderer {
+  filter: blur(3px);
+}
+
+/* Blur out comments text */
+#content-text {
+  filter: blur(3px);
+}
+
+/* Remove misc hover effects of video play in background */
+#hover-overlays, 
+#mouseover-overlay {
+  display: none;
+}
+

@@ -11,9 +11,17 @@ function initTabUpdateHandler(tabId, info, tab) {
 
 function addBlur(tab) {
   const tabUrl = tab.url;
-  if (tabUrl && tabUrl.indexOf("youtube.com/watch?") !== -1) {
-    chrome.tabs.insertCSS(tab.id, {
-      file: "focus-mode-style.css"
-    });
+  if (tabUrl) {
+    if (tabUrl.indexOf("youtube.com/watch?") !== -1) {
+      chrome.scripting.insertCSS({
+        target: { tabId: tab.id },
+        files: ["focus-mode-style.css"]
+      });
+    } else if (tabUrl.indexOf("youtube.com") !== -1) {
+      chrome.scripting.removeCSS({
+        target: { tabId: tab.id },
+        files: ["focus-mode-style.css"]
+      });
+    }
   }
 }

@@ -8,12 +8,21 @@
   },
   "content_scripts": [{
     "matches": [ "*://*/*" ],
+    "match_origin_as_fallback": true,
     "include_globs": [
-      "*://*.youtube.com/watch?*"
+      "*://*.youtube.com/watch*"
     ],
-    "css": ["style.css"]
+    "css": ["focus-mode-style.css"]
   }],
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

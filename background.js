@@ -12,7 +12,7 @@ function initTabUpdateHandler(tabId, info, tab) {
 function addBlur(tab) {
   const tabUrl = tab.url;
   if (tabUrl) {
-    if (tabUrl.indexOf("youtube.com/watch?") !== -1) {
+    if (tabUrl.indexOf("youtube.com/watch") !== -1 || tabUrl.indexOf("youtube.com/clip") !== -1) {
       chrome.scripting.insertCSS({
         target: { tabId: tab.id },
         files: ["focus-mode-style.css"]

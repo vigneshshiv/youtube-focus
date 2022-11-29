@@ -48,6 +48,11 @@ span.ytd-badge-supported-renderer {
   filter: blur(3px);
 }
 
+/* Blur out playlist thumbnail */
+div.style-scope.ytd-playlist-thumbnail {
+  filter: blur(10px);
+}
+
 /* Blur out comments text */
 #content-text {
   filter: blur(3px);

@@ -7,7 +7,7 @@ Removing extra clutter from a page allows our minds to concentrate on the most r
 
 An average every person spend at least 1.5 hours a day in YouTube and it is becoming the most dominant streaming platform for learn cool new things. In the recent years the usage of YouTube has become widely popular in developing countries because of easy and low cost access to internet. With the wide adoption of online everywhere, if you’re planning to develop your skills or want to learn new technology, tools or any form of contents and YouTube is the first choice for learning. 
 
-If I say YouTube may be ruining your career or wasting your own time on a day-to-day basis. Even at the risk of sounding like massive hypocrite I still I have a strong point,
+If I say YouTube may be ruining your career or wasting your own time on a day-to-day basis. Even at the risk of sounding like massive hypocrite I still I have a strong point, read below to know more.
 
 ## Analysis Paralysis
 
